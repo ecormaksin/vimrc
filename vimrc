@@ -84,6 +84,6 @@ set wrapscan
 " 検索語をハイライト表示
 set hlsearch
 " ESC連打でハイライト解除
-nmap  :nohlsearch
+nmap <Esc><Esc> :nohlsearch<CR><Esc>
 " シンタックスハイライトの有効化
 syntax enable
